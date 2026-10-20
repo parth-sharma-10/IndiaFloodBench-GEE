@@ -1,0 +1,960 @@
+{
+ "event_id": "IFB-001",
+ "status": "complete",
+ "history": [
+  {
+   "status": "configured",
+   "at": "2026-10-20T12:53:19+00:00"
+  },
+  {
+   "status": "imagery_checked",
+   "at": "2026-10-20T12:53:26+00:00"
+  },
+  {
+   "status": "label_checked",
+   "at": "2026-10-20T12:53:26+00:00"
+  },
+  {
+   "status": "exported",
+   "at": "2026-10-20T13:07:37+00:00"
+  },
+  {
+   "status": "validated",
+   "at": "2026-10-20T13:07:40+00:00"
+  },
+  {
+   "status": "complete",
+   "at": "2026-10-20T13:07:40+00:00"
+  }
+ ],
+ "imagery": {
+  "gfm_items": [
+   "ENSEMBLE_FLOOD_20160812T234716_VV_AS020M_E039N024T3",
+   "ENSEMBLE_FLOOD_20160812T234651_VV_AS020M_E042N024T3",
+   "ENSEMBLE_FLOOD_20160812T234651_VV_AS020M_E039N024T3",
+   "ENSEMBLE_FLOOD_20160812T234622_VV_AS020M_E042N024T3",
+   "ENSEMBLE_FLOOD_20160812T234622_VV_AS020M_E039N024T3"
+  ],
+  "label_datetime": "2016-08-12T23:47:16+00:00",
+  "s1_after_scenes": [
+   "S1A_IW_GRDH_1SDV_20160812T234622_20160812T234651_012574_013B43_CFE9",
+   "S1A_IW_GRDH_1SDV_20160812T234651_20160812T234716_012574_013B43_8C18"
+  ],
+  "s1_relative_orbit": 77,
+  "s1_orbit_state": "descending",
+  "s1_before_dates_available": [
+   "2016-04-14",
+   "2016-05-08",
+   "2016-06-01"
+  ],
+  "s2_after_window": [
+   "2016-08-10",
+   "2016-08-22"
+  ],
+  "feature_source": "Google Earth Engine"
+ },
+ "patches": [
+  {
+   "patch_id": "IFB-001_chip1017769",
+   "kind": "hand",
+   "chip_file": "India_1017769_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 499660,
+    "y0": 2945520,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip1018317",
+   "kind": "hand",
+   "chip_file": "India_1018317_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 476760,
+    "y0": 2940440,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip1018327",
+   "kind": "hand",
+   "chip_file": "India_1018327_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 577500,
+    "y0": 2945760,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip103447",
+   "kind": "hand",
+   "chip_file": "India_103447_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 485960,
+    "y0": 2970980,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip1050276",
+   "kind": "hand",
+   "chip_file": "India_1050276_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 449120,
+    "y0": 2899760,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip1068117",
+   "kind": "hand",
+   "chip_file": "India_1068117_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 568320,
+    "y0": 2950800,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip1072277",
+   "kind": "hand",
+   "chip_file": "India_1072277_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 504260,
+    "y0": 2904760,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip118868",
+   "kind": "hand",
+   "chip_file": "India_118868_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 577660,
+    "y0": 2920300,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip135434",
+   "kind": "hand",
+   "chip_file": "India_135434_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 458540,
+    "y0": 2971040,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip136196",
+   "kind": "hand",
+   "chip_file": "India_136196_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 508760,
+    "y0": 3016840,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip164336",
+   "kind": "hand",
+   "chip_file": "India_164336_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 508860,
+    "y0": 2909860,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip166709",
+   "kind": "hand",
+   "chip_file": "India_166709_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 549880,
+    "y0": 2981280,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip177319",
+   "kind": "hand",
+   "chip_file": "India_177319_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 508840,
+    "y0": 2930240,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip179238",
+   "kind": "hand",
+   "chip_file": "India_179238_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 513360,
+    "y0": 2976080,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip180633",
+   "kind": "hand",
+   "chip_file": "India_180633_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 527100,
+    "y0": 2960820,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip207862",
+   "kind": "hand",
+   "chip_file": "India_207862_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 476720,
+    "y0": 2914960,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip244057",
+   "kind": "hand",
+   "chip_file": "India_244057_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 545160,
+    "y0": 3022020,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip25540",
+   "kind": "hand",
+   "chip_file": "India_25540_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 453640,
+    "y0": 2879360,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip265762",
+   "kind": "hand",
+   "chip_file": "India_265762_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 590840,
+    "y0": 3001900,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip273873",
+   "kind": "hand",
+   "chip_file": "India_273873_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 499660,
+    "y0": 2996460,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip285297",
+   "kind": "hand",
+   "chip_file": "India_285297_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 472120,
+    "y0": 2909880,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip287642",
+   "kind": "hand",
+   "chip_file": "India_287642_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 458400,
+    "y0": 2925200,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip324254",
+   "kind": "hand",
+   "chip_file": "India_324254_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 531900,
+    "y0": 2879340,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip373039",
+   "kind": "hand",
+   "chip_file": "India_373039_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 490540,
+    "y0": 3011740,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip383430",
+   "kind": "hand",
+   "chip_file": "India_383430_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 550020,
+    "y0": 2950720,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip391908",
+   "kind": "hand",
+   "chip_file": "India_391908_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 453720,
+    "y0": 2899740,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip399883",
+   "kind": "hand",
+   "chip_file": "India_399883_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 531700,
+    "y0": 2955740,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip44475",
+   "kind": "hand",
+   "chip_file": "India_44475_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 527180,
+    "y0": 2930260,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip500266",
+   "kind": "hand",
+   "chip_file": "India_500266_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 462880,
+    "y0": 2889520,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip533192",
+   "kind": "hand",
+   "chip_file": "India_533192_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 586520,
+    "y0": 2966200,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip534470",
+   "kind": "hand",
+   "chip_file": "India_534470_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 508900,
+    "y0": 2869100,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip56450",
+   "kind": "hand",
+   "chip_file": "India_56450_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 453620,
+    "y0": 2869180,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip566697",
+   "kind": "hand",
+   "chip_file": "India_566697_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 504220,
+    "y0": 2970980,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip570384",
+   "kind": "hand",
+   "chip_file": "India_570384_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 476640,
+    "y0": 2869120,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip591317",
+   "kind": "hand",
+   "chip_file": "India_591317_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 490500,
+    "y0": 2945520,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip591549",
+   "kind": "hand",
+   "chip_file": "India_591549_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 559040,
+    "y0": 2976220,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip592446",
+   "kind": "hand",
+   "chip_file": "India_592446_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 481220,
+    "y0": 2848740,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip59460",
+   "kind": "hand",
+   "chip_file": "India_59460_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 504240,
+    "y0": 2935320,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip624341",
+   "kind": "hand",
+   "chip_file": "India_624341_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 536480,
+    "y0": 2884440,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip631692",
+   "kind": "hand",
+   "chip_file": "India_631692_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 527300,
+    "y0": 2874240,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip652725",
+   "kind": "hand",
+   "chip_file": "India_652725_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 462860,
+    "y0": 2884440,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip664410",
+   "kind": "hand",
+   "chip_file": "India_664410_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 508880,
+    "y0": 2884400,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip691027",
+   "kind": "hand",
+   "chip_file": "India_691027_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 573000,
+    "y0": 2935540,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip698338",
+   "kind": "hand",
+   "chip_file": "India_698338_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 568120,
+    "y0": 2986460,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip70352",
+   "kind": "hand",
+   "chip_file": "India_70352_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 485860,
+    "y0": 2864020,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip707886",
+   "kind": "hand",
+   "chip_file": "India_707886_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 499680,
+    "y0": 2853820,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip73419",
+   "kind": "hand",
+   "chip_file": "India_73419_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 577260,
+    "y0": 2986520,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip747970",
+   "kind": "hand",
+   "chip_file": "India_747970_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 504300,
+    "y0": 2853820,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip747992",
+   "kind": "hand",
+   "chip_file": "India_747992_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 485880,
+    "y0": 2884400,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip764946",
+   "kind": "hand",
+   "chip_file": "India_764946_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 504300,
+    "y0": 2848740,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip769408",
+   "kind": "hand",
+   "chip_file": "India_769408_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 481380,
+    "y0": 2965900,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip772630",
+   "kind": "hand",
+   "chip_file": "India_772630_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 499660,
+    "y0": 3011740,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip773682",
+   "kind": "hand",
+   "chip_file": "India_773682_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 490520,
+    "y0": 2955700,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip774689",
+   "kind": "hand",
+   "chip_file": "India_774689_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 485920,
+    "y0": 2935320,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip79637",
+   "kind": "hand",
+   "chip_file": "India_79637_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 513440,
+    "y0": 2909860,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip80221",
+   "kind": "hand",
+   "chip_file": "India_80221_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 472180,
+    "y0": 2940440,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip804466",
+   "kind": "hand",
+   "chip_file": "India_804466_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 481280,
+    "y0": 2889480,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip828067",
+   "kind": "hand",
+   "chip_file": "India_828067_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 572960,
+    "y0": 2940640,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip833266",
+   "kind": "hand",
+   "chip_file": "India_833266_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 577480,
+    "y0": 2950860,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip842775",
+   "kind": "hand",
+   "chip_file": "India_842775_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 568160,
+    "y0": 2981360,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip869358",
+   "kind": "hand",
+   "chip_file": "India_869358_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 518080,
+    "y0": 2884400,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip900498",
+   "kind": "hand",
+   "chip_file": "India_900498_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 572840,
+    "y0": 2961020,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip91379",
+   "kind": "hand",
+   "chip_file": "India_91379_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 476680,
+    "y0": 2884400,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip943439",
+   "kind": "hand",
+   "chip_file": "India_943439_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 531720,
+    "y0": 2945560,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip952728",
+   "kind": "hand",
+   "chip_file": "India_952728_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 577320,
+    "y0": 2976320,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip956930",
+   "kind": "hand",
+   "chip_file": "India_956930_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 458300,
+    "y0": 2894640,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip979278",
+   "kind": "hand",
+   "chip_file": "India_979278_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 439940,
+    "y0": 2899800,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-001_chip981708",
+   "kind": "hand",
+   "chip_file": "India_981708_LabelHand.tif",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 577640,
+    "y0": 2925380,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  }
+ ],
+ "label_stats": {
+  "sen1floods11_chips": 68
+ },
+ "failed_patches": {},
+ "validation": {
+  "passed": true,
+  "errors": [],
+  "warnings": [
+   "VV_before: 0.2% missing",
+   "VH_before: 0.2% missing",
+   "VV_after: 0.2% missing",
+   "VH_after: 0.2% missing",
+   "NDVI_before: 6.7% missing (cloud / no clear Sentinel-2 in window)",
+   "NDVI_after: 5.9% missing (cloud / no clear Sentinel-2 in window)"
+  ],
+  "patches_checked": 68
+ },
+ "error": null
+}

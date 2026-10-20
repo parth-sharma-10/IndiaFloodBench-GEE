@@ -1,0 +1,210 @@
+{
+ "event_id": "IFB-002",
+ "status": "complete",
+ "history": [
+  {
+   "status": "configured",
+   "at": "2026-10-20T13:42:21+00:00"
+  },
+  {
+   "status": "imagery_checked",
+   "at": "2026-10-20T13:42:29+00:00"
+  },
+  {
+   "status": "label_checked",
+   "at": "2026-10-20T13:43:34+00:00"
+  },
+  {
+   "status": "exported",
+   "at": "2026-10-20T13:46:10+00:00"
+  },
+  {
+   "status": "validated",
+   "at": "2026-10-20T13:46:11+00:00"
+  },
+  {
+   "status": "complete",
+   "at": "2026-10-20T13:46:11+00:00"
+  }
+ ],
+ "imagery": {
+  "gfm_items": [
+   "ENSEMBLE_FLOOD_20180821T004109_VV_AS020M_E021N006T3",
+   "ENSEMBLE_FLOOD_20180821T004044_VV_AS020M_E021N009T3",
+   "ENSEMBLE_FLOOD_20180821T004044_VV_AS020M_E021N006T3",
+   "ENSEMBLE_FLOOD_20180821T004019_VV_AS020M_E021N009T3",
+   "ENSEMBLE_FLOOD_20180821T003954_VV_AS020M_E021N009T3"
+  ],
+  "label_datetime": "2018-08-21T00:41:09+00:00",
+  "s1_after_scenes": [
+   "S1A_IW_GRDH_1SDV_20180821T004044_20180821T004109_023337_0289D5_D07A",
+   "S1A_IW_GRDH_1SDV_20180821T004109_20180821T004134_023337_0289D5_B2B2"
+  ],
+  "s1_relative_orbit": 165,
+  "s1_orbit_state": "descending",
+  "s1_before_dates_available": [
+   "2018-03-18",
+   "2018-03-30",
+   "2018-04-11",
+   "2018-04-23",
+   "2018-05-05",
+   "2018-05-17"
+  ],
+  "s2_after_window": [
+   "2018-08-19",
+   "2018-08-31"
+  ],
+  "feature_source": "Google Earth Engine"
+ },
+ "patches": [
+  {
+   "patch_id": "IFB-002_r021c006",
+   "kind": "flood",
+   "grid": {
+    "crs": "EPSG:32643",
+    "x0": 660480.0,
+    "y0": 1044480.0,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-002_r017c005",
+   "kind": "flood",
+   "grid": {
+    "crs": "EPSG:32643",
+    "x0": 655360.0,
+    "y0": 1064960.0,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-002_r008c001",
+   "kind": "flood",
+   "grid": {
+    "crs": "EPSG:32643",
+    "x0": 634880.0,
+    "y0": 1111040.0,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-002_r018c004",
+   "kind": "flood",
+   "grid": {
+    "crs": "EPSG:32643",
+    "x0": 650240.0,
+    "y0": 1059840.0,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-002_r022c005",
+   "kind": "flood",
+   "grid": {
+    "crs": "EPSG:32643",
+    "x0": 655360.0,
+    "y0": 1039360.0,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-002_r020c006",
+   "kind": "flood",
+   "grid": {
+    "crs": "EPSG:32643",
+    "x0": 660480.0,
+    "y0": 1049600.0,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-002_r016c005",
+   "kind": "flood",
+   "grid": {
+    "crs": "EPSG:32643",
+    "x0": 655360.0,
+    "y0": 1070080.0,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-002_r006c000",
+   "kind": "flood",
+   "grid": {
+    "crs": "EPSG:32643",
+    "x0": 629760.0,
+    "y0": 1121280.0,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-002_r012c002",
+   "kind": "flood",
+   "grid": {
+    "crs": "EPSG:32643",
+    "x0": 640000.0,
+    "y0": 1090560.0,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-002_r019c004",
+   "kind": "flood",
+   "grid": {
+    "crs": "EPSG:32643",
+    "x0": 650240.0,
+    "y0": 1054720.0,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-002_r026c007",
+   "kind": "dry",
+   "grid": {
+    "crs": "EPSG:32643",
+    "x0": 665600.0,
+    "y0": 1018880.0,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  }
+ ],
+ "label_stats": {
+  "aoi_patches": 378,
+  "aoi_patches_valid": 31,
+  "aoi_patches_flood_candidates": 27,
+  "aoi_patches_dry_candidates": 1,
+  "aoi_flood_fraction_of_labelled_px": 0.21566402573737994
+ },
+ "failed_patches": {},
+ "validation": {
+  "passed": true,
+  "errors": [],
+  "warnings": [
+   "NDVI_after: 29.4% missing (cloud / no clear Sentinel-2 in window)"
+  ],
+  "patches_checked": 11
+ },
+ "error": null
+}

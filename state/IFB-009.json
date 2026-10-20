@@ -1,0 +1,257 @@
+{
+ "event_id": "IFB-009",
+ "status": "complete",
+ "history": [
+  {
+   "status": "configured",
+   "at": "2026-10-20T13:31:38+00:00"
+  },
+  {
+   "status": "imagery_checked",
+   "at": "2026-10-20T13:31:45+00:00"
+  },
+  {
+   "status": "label_checked",
+   "at": "2026-10-20T13:32:14+00:00"
+  },
+  {
+   "status": "exported",
+   "at": "2026-10-20T13:35:22+00:00"
+  },
+  {
+   "status": "validated",
+   "at": "2026-10-20T13:35:23+00:00"
+  },
+  {
+   "status": "complete",
+   "at": "2026-10-20T13:35:23+00:00"
+  }
+ ],
+ "imagery": {
+  "gfm_items": [
+   "ENSEMBLE_FLOOD_20240706T114933_VV_AS020M_E042N024T3",
+   "ENSEMBLE_FLOOD_20240706T114908_VV_AS020M_E042N024T3",
+   "ENSEMBLE_FLOOD_20240706T114843_VV_AS020M_E042N024T3"
+  ],
+  "label_datetime": "2024-07-06T11:49:33+00:00",
+  "s1_after_scenes": [
+   "S1A_IW_GRDH_1SDV_20240706T114908_20240706T114933_054640_06A6C6_BE86"
+  ],
+  "s1_relative_orbit": 143,
+  "s1_orbit_state": "ascending",
+  "s1_before_dates_available": [
+   "2024-02-25",
+   "2024-03-08",
+   "2024-03-20",
+   "2024-04-01",
+   "2024-04-13",
+   "2024-04-25",
+   "2024-05-07",
+   "2024-05-19"
+  ],
+  "s2_after_window": [
+   "2024-07-04",
+   "2024-07-16"
+  ],
+  "feature_source": "Google Earth Engine"
+ },
+ "patches": [
+  {
+   "patch_id": "IFB-009_r008c015",
+   "kind": "flood",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 552960.0,
+    "y0": 2949120.0,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-009_r006c004",
+   "kind": "flood",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 496640.0,
+    "y0": 2959360.0,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-009_r005c022",
+   "kind": "flood",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 588800.0,
+    "y0": 2964480.0,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-009_r011c000",
+   "kind": "flood",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 476160.0,
+    "y0": 2933760.0,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-009_r011c001",
+   "kind": "flood",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 481280.0,
+    "y0": 2933760.0,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-009_r008c001",
+   "kind": "flood",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 481280.0,
+    "y0": 2949120.0,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-009_r006c001",
+   "kind": "flood",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 481280.0,
+    "y0": 2959360.0,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-009_r008c003",
+   "kind": "flood",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 491520.0,
+    "y0": 2949120.0,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-009_r001c022",
+   "kind": "flood",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 588800.0,
+    "y0": 2984960.0,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-009_r007c002",
+   "kind": "flood",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 486400.0,
+    "y0": 2954240.0,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-009_r002c020",
+   "kind": "dry",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 578560.0,
+    "y0": 2979840.0,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-009_r002c016",
+   "kind": "dry",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 558080.0,
+    "y0": 2979840.0,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-009_r003c008",
+   "kind": "dry",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 517120.0,
+    "y0": 2974720.0,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-009_r003c003",
+   "kind": "dry",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 491520.0,
+    "y0": 2974720.0,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  },
+  {
+   "patch_id": "IFB-009_r003c004",
+   "kind": "dry",
+   "grid": {
+    "crs": "EPSG:32646",
+    "x0": 496640.0,
+    "y0": 2974720.0,
+    "res": 20,
+    "width": 256,
+    "height": 256
+   }
+  }
+ ],
+ "label_stats": {
+  "aoi_patches": 406,
+  "aoi_patches_valid": 173,
+  "aoi_patches_flood_candidates": 131,
+  "aoi_patches_dry_candidates": 20,
+  "aoi_flood_fraction_of_labelled_px": 0.21676403312529816
+ },
+ "failed_patches": {},
+ "validation": {
+  "passed": true,
+  "errors": [],
+  "warnings": [
+   "NDVI_after: 100.0% missing (cloud / no clear Sentinel-2 in window)"
+  ],
+  "patches_checked": 15
+ },
+ "error": null
+}

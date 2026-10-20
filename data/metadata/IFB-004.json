@@ -1,0 +1,65 @@
+{
+ "event_id": "IFB-004",
+ "slug": "assam_2022",
+ "state": "Assam",
+ "region": "Lower Assam (Barpeta/Nalbari/Kamrup)",
+ "flood_type": "riverine",
+ "event_start": "2022-06-14",
+ "event_end": "2022-06-30",
+ "label_date": "2022-06-16",
+ "before_window": [
+  "2022-02-15",
+  "2022-05-05"
+ ],
+ "bbox": [
+  90.6,
+  26.0,
+  92.0,
+  26.8
+ ],
+ "label_source": "gfm",
+ "notes": "Second 2022 wave; Barpeta worst-hit district; >54 lakh affected statewide by 23 Jun. Before-window ends before the mid-May first wave.",
+ "imagery": {
+  "gfm_items": [
+   "ENSEMBLE_FLOOD_20220616T115735_VV_AS020M_E039N024T3",
+   "ENSEMBLE_FLOOD_20220616T115710_VV_AS020M_E039N024T3",
+   "ENSEMBLE_FLOOD_20220616T115645_VV_AS020M_E039N024T3"
+  ],
+  "label_datetime": "2022-06-16T11:57:35+00:00",
+  "s1_after_scenes": [
+   "S1A_IW_GRDH_1SDV_20220616T115710_20220616T115735_043688_05373A_2FBB",
+   "S1A_IW_GRDH_1SDV_20220616T115735_20220616T115800_043688_05373A_ABE5"
+  ],
+  "s1_relative_orbit": 41,
+  "s1_orbit_state": "ascending",
+  "s1_before_dates_available": [
+   "2022-02-16",
+   "2022-02-28",
+   "2022-03-12",
+   "2022-03-24",
+   "2022-04-05",
+   "2022-04-17",
+   "2022-04-29"
+  ],
+  "s2_after_window": [
+   "2022-06-14",
+   "2022-06-26"
+  ],
+  "feature_source": "Google Earth Engine"
+ },
+ "label_stats": {
+  "aoi_patches": 551,
+  "aoi_patches_valid": 325,
+  "aoi_patches_flood_candidates": 303,
+  "aoi_patches_dry_candidates": 5,
+  "aoi_flood_fraction_of_labelled_px": 0.22840308761384823
+ },
+ "patches_requested": 15,
+ "patches_failed": {},
+ "total_samples": 3751,
+ "positive_samples": 1501,
+ "negative_samples": 2250,
+ "positive_percentage": 40.02,
+ "sampling": "stratified per patch: <=150 flood + <=150 non-flood lattice pixels (stride 4 px); inclusion_prob column gives per-stratum selection probability",
+ "built_at": "2026-10-20T13:16:05+00:00"
+}

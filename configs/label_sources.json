@@ -1,0 +1,18 @@
+{
+ "gfm": {
+  "label_source": "Copernicus GFM ensemble flood extent (EODC archive)",
+  "label_resolution_m": 20,
+  "label_method": "GFM ensemble observed water (majority of 3 independent Sentinel-1 algorithms: DLR, LIST, TU Wien) AND NOT JRC GSW occurrence >= 50%; GFM exclusion mask -> no label. GFM's own flood extent (minus monthly reference water) kept as gfm_flood_extent",
+  "label_confidence": "medium (automated operational product, not manually verified)",
+  "label_type": "automated/weak",
+  "label_derived_from_feature": "VV_after (same Sentinel-1 acquisition)"
+ },
+ "sen1floods11_hand": {
+  "label_source": "Sen1Floods11 v1.1 hand labels (Bonafilia et al. 2020)",
+  "label_resolution_m": 10,
+  "label_method": "Manual water delineation by analysts on S1 + S2 of the same day; flood = hand water AND NOT JRC GSW occurrence >= 50%",
+  "label_confidence": "high (manual), resampled 10 m -> 20 m nearest",
+  "label_type": "manual",
+  "label_derived_from_feature": "none directly (analyst used S1/S2 imagery)"
+ }
+}

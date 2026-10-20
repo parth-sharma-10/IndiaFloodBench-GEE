@@ -1,0 +1,63 @@
+{
+ "event_id": "IFB-010",
+ "slug": "vadodara_2024",
+ "state": "Gujarat",
+ "region": "Vadodara / Vishwamitri",
+ "flood_type": "urban",
+ "event_start": "2024-08-26",
+ "event_end": "2024-08-31",
+ "label_date": "2024-08-28",
+ "before_window": [
+  "2024-03-15",
+  "2024-05-31"
+ ],
+ "bbox": [
+  73.0,
+  22.1,
+  73.4,
+  22.5
+ ],
+ "label_source": "gfm",
+ "notes": "Vishwamitri peaked at 37 ft on 28 Aug 2024. Only urban event attempted; expected to have weak GFM signal because GFM excludes built-up areas.",
+ "imagery": {
+  "gfm_items": [
+   "ENSEMBLE_FLOOD_20240828T010304_VV_AS020M_E021N021T3",
+   "ENSEMBLE_FLOOD_20240828T010239_VV_AS020M_E021N021T3",
+   "ENSEMBLE_FLOOD_20240828T010214_VV_AS020M_E021N021T3"
+  ],
+  "label_datetime": "2024-08-28T01:03:04+00:00",
+  "s1_after_scenes": [
+   "S1A_IW_GRDH_1SDV_20240828T010239_20240828T010304_055406_06C204_DFDE"
+  ],
+  "s1_relative_orbit": 34,
+  "s1_orbit_state": "descending",
+  "s1_before_dates_available": [
+   "2024-03-25",
+   "2024-04-06",
+   "2024-04-18",
+   "2024-04-30",
+   "2024-05-12",
+   "2024-05-24"
+  ],
+  "s2_after_window": [
+   "2024-08-26",
+   "2024-09-07"
+  ],
+  "feature_source": "Google Earth Engine"
+ },
+ "label_stats": {
+  "aoi_patches": 90,
+  "aoi_patches_valid": 78,
+  "aoi_patches_flood_candidates": 27,
+  "aoi_patches_dry_candidates": 12,
+  "aoi_flood_fraction_of_labelled_px": 0.026450756821182215
+ },
+ "patches_requested": 15,
+ "patches_failed": {},
+ "total_samples": 3569,
+ "positive_samples": 1319,
+ "negative_samples": 2250,
+ "positive_percentage": 36.96,
+ "sampling": "stratified per patch: <=150 flood + <=150 non-flood lattice pixels (stride 4 px); inclusion_prob column gives per-stratum selection probability",
+ "built_at": "2026-10-20T13:39:21+00:00"
+}

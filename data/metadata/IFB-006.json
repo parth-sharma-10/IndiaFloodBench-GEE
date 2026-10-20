@@ -1,0 +1,63 @@
+{
+ "event_id": "IFB-006",
+ "slug": "vijayawada_2024",
+ "state": "Andhra Pradesh",
+ "region": "Vijayawada / Budameru-Krishna",
+ "flood_type": "urban_riverine",
+ "event_start": "2024-08-31",
+ "event_end": "2024-09-10",
+ "label_date": "2024-09-01",
+ "before_window": [
+  "2024-03-15",
+  "2024-05-31"
+ ],
+ "bbox": [
+  80.4,
+  16.3,
+  81.0,
+  16.8
+ ],
+ "label_source": "gfm",
+ "notes": "Budameru overflow after ~29 cm one-day rainfall on 31 Aug 2024; roughly half the city inundated on 1 Sep. GFM excludes dense urban pixels, so in-city flooding is under-labelled.",
+ "imagery": {
+  "gfm_items": [
+   "ENSEMBLE_FLOOD_20240901T003132_VV_AS020M_E027N015T3",
+   "ENSEMBLE_FLOOD_20240901T003107_VV_AS020M_E027N015T3",
+   "ENSEMBLE_FLOOD_20240901T003042_VV_AS020M_E027N015T3",
+   "ENSEMBLE_FLOOD_20240901T003017_VV_AS020M_E027N015T3"
+  ],
+  "label_datetime": "2024-09-01T00:31:32+00:00",
+  "s1_after_scenes": [
+   "S1A_IW_GRDH_1SDV_20240901T003107_20240901T003132_055464_06C415_85AB"
+  ],
+  "s1_relative_orbit": 92,
+  "s1_orbit_state": "descending",
+  "s1_before_dates_available": [
+   "2024-03-17",
+   "2024-03-29",
+   "2024-04-22",
+   "2024-05-16",
+   "2024-05-28"
+  ],
+  "s2_after_window": [
+   "2024-08-30",
+   "2024-09-11"
+  ],
+  "feature_source": "Google Earth Engine"
+ },
+ "label_stats": {
+  "aoi_patches": 156,
+  "aoi_patches_valid": 116,
+  "aoi_patches_flood_candidates": 99,
+  "aoi_patches_dry_candidates": 2,
+  "aoi_flood_fraction_of_labelled_px": 0.2016372706715086
+ },
+ "patches_requested": 12,
+ "patches_failed": {},
+ "total_samples": 3258,
+ "positive_samples": 1458,
+ "negative_samples": 1800,
+ "positive_percentage": 44.75,
+ "sampling": "stratified per patch: <=150 flood + <=150 non-flood lattice pixels (stride 4 px); inclusion_prob column gives per-stratum selection probability",
+ "built_at": "2026-10-20T13:23:24+00:00"
+}

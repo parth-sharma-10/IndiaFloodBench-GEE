@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+# 875 MB of GeoTIFF patches: published as a GitHub Release asset (see README)
+data/raster/
+# third-party inputs, re-downloaded by the instructions in README
+data/external/
+# pickled per-event build context (rebuilt on every run)
+state/*_ctx.pkl
+reports/patch_logs/
+**/*_ctx.pkl
+reports/build*.log

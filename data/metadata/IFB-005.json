@@ -1,0 +1,61 @@
+{
+ "event_id": "IFB-005",
+ "slug": "punjab_2023",
+ "state": "Punjab",
+ "region": "Ghaggar basin (Patiala/Sangrur)",
+ "flood_type": "riverine",
+ "event_start": "2023-07-08",
+ "event_end": "2023-07-25",
+ "label_date": "2023-07-12",
+ "before_window": [
+  "2023-04-15",
+  "2023-06-10"
+ ],
+ "bbox": [
+  75.6,
+  29.8,
+  76.6,
+  30.6
+ ],
+ "label_source": "gfm",
+ "notes": "Ghaggar breaches at Moonak (Sangrur) ~12 Jul and Mansa 15-18 Jul 2023. Caveat: July is the paddy transplanting season, so some flooded paddy may be labelled flood.",
+ "imagery": {
+  "gfm_items": [
+   "ENSEMBLE_FLOOD_20230712T005233_VV_AS020M_E024N030T3",
+   "ENSEMBLE_FLOOD_20230712T005208_VV_AS020M_E024N030T3",
+   "ENSEMBLE_FLOOD_20230712T005143_VV_AS020M_E024N030T3"
+  ],
+  "label_datetime": "2023-07-12T00:52:33+00:00",
+  "s1_after_scenes": [
+   "S1A_IW_GRDH_1SDV_20230712T005208_20230712T005233_049383_05F03C_A5CA"
+  ],
+  "s1_relative_orbit": 136,
+  "s1_orbit_state": "descending",
+  "s1_before_dates_available": [
+   "2023-05-01",
+   "2023-05-13",
+   "2023-05-25",
+   "2023-06-06"
+  ],
+  "s2_after_window": [
+   "2023-07-10",
+   "2023-07-22"
+  ],
+  "feature_source": "Google Earth Engine"
+ },
+ "label_stats": {
+  "aoi_patches": 380,
+  "aoi_patches_valid": 369,
+  "aoi_patches_flood_candidates": 146,
+  "aoi_patches_dry_candidates": 91,
+  "aoi_flood_fraction_of_labelled_px": 0.0977766355826419
+ },
+ "patches_requested": 15,
+ "patches_failed": {},
+ "total_samples": 3620,
+ "positive_samples": 1370,
+ "negative_samples": 2250,
+ "positive_percentage": 37.85,
+ "sampling": "stratified per patch: <=150 flood + <=150 non-flood lattice pixels (stride 4 px); inclusion_prob column gives per-stratum selection probability",
+ "built_at": "2026-10-20T13:20:27+00:00"
+}

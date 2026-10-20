@@ -1,0 +1,65 @@
+{
+ "event_id": "IFB-007",
+ "slug": "amphan_2020",
+ "state": "West Bengal",
+ "region": "Sundarbans / South 24 Parganas",
+ "flood_type": "coastal_cyclonic",
+ "event_start": "2020-05-20",
+ "event_end": "2020-06-05",
+ "label_date": "2020-05-22",
+ "before_window": [
+  "2020-02-15",
+  "2020-05-15"
+ ],
+ "bbox": [
+  88.0,
+  21.6,
+  89.0,
+  22.6
+ ],
+ "label_source": "gfm",
+ "notes": "Super Cyclone Amphan landfall 20 May 2020 near the Sundarbans; embankment breaches and saline inundation.",
+ "imagery": {
+  "gfm_items": [
+   "ENSEMBLE_FLOOD_20200522T235550_VV_AS020M_E036N021T3",
+   "ENSEMBLE_FLOOD_20200522T235550_VV_AS020M_E036N018T3",
+   "ENSEMBLE_FLOOD_20200522T235525_VV_AS020M_E036N021T3",
+   "ENSEMBLE_FLOOD_20200522T235456_VV_AS020M_E036N021T3"
+  ],
+  "label_datetime": "2020-05-22T23:55:50+00:00",
+  "s1_after_scenes": [
+   "S1B_IW_GRDH_1SDV_20200522T235550_20200522T235615_021701_029311_F87B"
+  ],
+  "s1_relative_orbit": 150,
+  "s1_orbit_state": "descending",
+  "s1_before_dates_available": [
+   "2020-02-22",
+   "2020-03-05",
+   "2020-03-17",
+   "2020-03-29",
+   "2020-04-10",
+   "2020-04-22",
+   "2020-05-04"
+  ],
+  "s2_after_window": [
+   "2020-05-20",
+   "2020-06-01"
+  ],
+  "feature_source": "Google Earth Engine"
+ },
+ "label_stats": {
+  "aoi_patches": 506,
+  "aoi_patches_valid": 175,
+  "aoi_patches_flood_candidates": 91,
+  "aoi_patches_dry_candidates": 15,
+  "aoi_flood_fraction_of_labelled_px": 0.0460900314626079
+ },
+ "patches_requested": 15,
+ "patches_failed": {},
+ "total_samples": 3615,
+ "positive_samples": 1365,
+ "negative_samples": 2250,
+ "positive_percentage": 37.76,
+ "sampling": "stratified per patch: <=150 flood + <=150 non-flood lattice pixels (stride 4 px); inclusion_prob column gives per-stratum selection probability",
+ "built_at": "2026-10-20T13:51:07+00:00"
+}

@@ -1,0 +1,66 @@
+{
+ "event_id": "IFB-002",
+ "slug": "kerala_2018",
+ "state": "Kerala",
+ "region": "Kuttanad / Periyar-Chalakudy lowlands",
+ "flood_type": "riverine_pluvial",
+ "event_start": "2018-08-08",
+ "event_end": "2018-08-30",
+ "label_date": "2018-08-21",
+ "before_window": [
+  "2018-03-15",
+  "2018-05-25"
+ ],
+ "bbox": [
+  76.2,
+  9.2,
+  76.8,
+  10.4
+ ],
+ "label_source": "gfm",
+ "notes": "Peak inundation 15-17 Aug 2018; the first GFM scene with detected flooding over the AOI is 21 Aug, so labels capture the recession phase (Kuttanad stayed waterlogged).",
+ "imagery": {
+  "gfm_items": [
+   "ENSEMBLE_FLOOD_20180821T004109_VV_AS020M_E021N006T3",
+   "ENSEMBLE_FLOOD_20180821T004044_VV_AS020M_E021N009T3",
+   "ENSEMBLE_FLOOD_20180821T004044_VV_AS020M_E021N006T3",
+   "ENSEMBLE_FLOOD_20180821T004019_VV_AS020M_E021N009T3",
+   "ENSEMBLE_FLOOD_20180821T003954_VV_AS020M_E021N009T3"
+  ],
+  "label_datetime": "2018-08-21T00:41:09+00:00",
+  "s1_after_scenes": [
+   "S1A_IW_GRDH_1SDV_20180821T004044_20180821T004109_023337_0289D5_D07A",
+   "S1A_IW_GRDH_1SDV_20180821T004109_20180821T004134_023337_0289D5_B2B2"
+  ],
+  "s1_relative_orbit": 165,
+  "s1_orbit_state": "descending",
+  "s1_before_dates_available": [
+   "2018-03-18",
+   "2018-03-30",
+   "2018-04-11",
+   "2018-04-23",
+   "2018-05-05",
+   "2018-05-17"
+  ],
+  "s2_after_window": [
+   "2018-08-19",
+   "2018-08-31"
+  ],
+  "feature_source": "Google Earth Engine"
+ },
+ "label_stats": {
+  "aoi_patches": 378,
+  "aoi_patches_valid": 31,
+  "aoi_patches_flood_candidates": 27,
+  "aoi_patches_dry_candidates": 1,
+  "aoi_flood_fraction_of_labelled_px": 0.21566402573737994
+ },
+ "patches_requested": 11,
+ "patches_failed": {},
+ "total_samples": 3150,
+ "positive_samples": 1500,
+ "negative_samples": 1650,
+ "positive_percentage": 47.62,
+ "sampling": "stratified per patch: <=150 flood + <=150 non-flood lattice pixels (stride 4 px); inclusion_prob column gives per-stratum selection probability",
+ "built_at": "2026-10-20T13:46:10+00:00"
+}

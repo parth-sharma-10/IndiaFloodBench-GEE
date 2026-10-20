@@ -1,0 +1,154 @@
+{
+ "IFB-001": {
+  "passed": true,
+  "errors": [],
+  "warnings": [
+   "VV_before: 0.2% missing",
+   "VH_before: 0.2% missing",
+   "VV_after: 0.2% missing",
+   "VH_after: 0.2% missing",
+   "NDVI_before: 6.7% missing (cloud / no clear Sentinel-2 in window)",
+   "NDVI_after: 5.9% missing (cloud / no clear Sentinel-2 in window)"
+  ],
+  "patches_checked": 68
+ },
+ "IFB-002": {
+  "passed": true,
+  "errors": [],
+  "warnings": [
+   "NDVI_after: 29.4% missing (cloud / no clear Sentinel-2 in window)"
+  ],
+  "patches_checked": 11
+ },
+ "IFB-003": {
+  "passed": true,
+  "errors": [],
+  "warnings": [
+   "NDVI_before: 0.3% missing (cloud / no clear Sentinel-2 in window)",
+   "NDVI_after: 88.0% missing (cloud / no clear Sentinel-2 in window)"
+  ],
+  "patches_checked": 15
+ },
+ "IFB-004": {
+  "passed": true,
+  "errors": [],
+  "warnings": [
+   "NDVI_after: 100.0% missing (cloud / no clear Sentinel-2 in window)"
+  ],
+  "patches_checked": 15
+ },
+ "IFB-005": {
+  "passed": true,
+  "errors": [],
+  "warnings": [
+   "NDVI_after: 16.1% missing (cloud / no clear Sentinel-2 in window)"
+  ],
+  "patches_checked": 15
+ },
+ "IFB-006": {
+  "passed": true,
+  "errors": [],
+  "warnings": [
+   "NDVI_after: 100.0% missing (cloud / no clear Sentinel-2 in window)"
+  ],
+  "patches_checked": 12
+ },
+ "IFB-007": {
+  "passed": true,
+  "errors": [],
+  "warnings": [
+   "NDVI_before: 3.8% missing (cloud / no clear Sentinel-2 in window)",
+   "NDVI_after: 87.7% missing (cloud / no clear Sentinel-2 in window)"
+  ],
+  "patches_checked": 15
+ },
+ "IFB-008": {
+  "passed": true,
+  "errors": [],
+  "warnings": [
+   "NDVI_after: 33.0% missing (cloud / no clear Sentinel-2 in window)"
+  ],
+  "patches_checked": 15
+ },
+ "IFB-009": {
+  "passed": true,
+  "errors": [],
+  "warnings": [
+   "NDVI_after: 100.0% missing (cloud / no clear Sentinel-2 in window)"
+  ],
+  "patches_checked": 15
+ },
+ "IFB-010": {
+  "passed": true,
+  "errors": [],
+  "warnings": [
+   "NDVI_after: 88.1% missing (cloud / no clear Sentinel-2 in window)"
+  ],
+  "patches_checked": 15
+ },
+ "_dataset": {
+  "rows": 49619,
+  "duplicate_sample_id": 0,
+  "duplicate_rows_all_columns": 0,
+  "duplicate_event_lat_lon": 0,
+  "cross_event_same_lat_lon": 2,
+  "pixel_state_differs_from_event_state": 3002,
+  "pixel_state_by_event": {
+   "IFB-001 -> Assam": 16691,
+   "IFB-001 -> Arunachal Pradesh": 932,
+   "IFB-002 -> Kerala": 3150,
+   "IFB-003 -> Bihar": 3693,
+   "IFB-004 -> Assam": 3751,
+   "IFB-005 -> Punjab": 2955,
+   "IFB-005 -> Haryana": 665,
+   "IFB-006 -> Andhra Pradesh": 3258,
+   "IFB-007 -> West Bengal": 3615,
+   "IFB-008 -> Odisha": 2252,
+   "IFB-008 -> West Bengal": 1405,
+   "IFB-009 -> Assam": 3683,
+   "IFB-010 -> Gujarat": 3569
+  },
+  "samples_without_state": 0,
+  "flood_samples_without_state": 0,
+  "flood_label_values": [
+   0,
+   1
+  ],
+  "missing_fraction": {
+   "VV_before": 0.0008,
+   "VH_before": 0.0008,
+   "VV_after": 0.0006,
+   "VH_after": 0.0006,
+   "VV_change": 0.0008,
+   "VH_change": 0.0008,
+   "B2_before": 0.0269,
+   "B3_before": 0.0269,
+   "B4_before": 0.0269,
+   "B8_before": 0.0269,
+   "B11_before": 0.0274,
+   "B12_before": 0.0274,
+   "B2_after": 0.4838,
+   "B3_after": 0.4839,
+   "B4_after": 0.4839,
+   "B8_after": 0.4839,
+   "B11_after": 0.4848,
+   "B12_after": 0.4848,
+   "s2_before_offset_days": 0.0269,
+   "s2_after_offset_days": 0.4838,
+   "NDVI_before": 0.0269,
+   "NDVI_after": 0.4839,
+   "NDVI_change": 0.5059,
+   "NDWI_before": 0.0269,
+   "NDWI_after": 0.4839,
+   "NDWI_change": 0.5059,
+   "MNDWI_before": 0.0274,
+   "MNDWI_after": 0.4848,
+   "MNDWI_change": 0.5068,
+   "NDBI_before": 0.0274,
+   "NDBI_after": 0.4848,
+   "flood_confidence": 0.3552,
+   "gfm_flood_extent": 0.1786
+  },
+  "nonfinite_numeric": {}
+ }
+}

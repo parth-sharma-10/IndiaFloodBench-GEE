@@ -1,0 +1,66 @@
+{
+ "event_id": "IFB-008",
+ "slug": "yaas_2021",
+ "state": "Odisha",
+ "region": "Balasore-Bhadrak coast / Purba Medinipur",
+ "flood_type": "coastal_cyclonic",
+ "event_start": "2021-05-26",
+ "event_end": "2021-06-05",
+ "label_date": "2021-05-29",
+ "before_window": [
+  "2021-02-15",
+  "2021-05-20"
+ ],
+ "bbox": [
+  86.6,
+  21.3,
+  87.8,
+  22.1
+ ],
+ "label_source": "gfm",
+ "notes": "Cyclone Yaas landfall 26 May 2021 near Balasore; storm surge flooding in coastal Odisha and Purba Medinipur (West Bengal).",
+ "imagery": {
+  "gfm_items": [
+   "ENSEMBLE_FLOOD_20210529T000515_VV_AS020M_E033N018T3",
+   "ENSEMBLE_FLOOD_20210529T000450_VV_AS020M_E036N018T3",
+   "ENSEMBLE_FLOOD_20210529T000450_VV_AS020M_E033N018T3",
+   "ENSEMBLE_FLOOD_20210529T000425_VV_AS020M_E036N018T3"
+  ],
+  "label_datetime": "2021-05-29T00:05:15+00:00",
+  "s1_after_scenes": [
+   "S1A_IW_GRDH_1SDV_20210529T000450_20210529T000515_038095_047EF4_E55A"
+  ],
+  "s1_relative_orbit": 48,
+  "s1_orbit_state": "descending",
+  "s1_before_dates_available": [
+   "2021-02-22",
+   "2021-03-06",
+   "2021-03-18",
+   "2021-03-30",
+   "2021-04-11",
+   "2021-04-23",
+   "2021-05-05",
+   "2021-05-17"
+  ],
+  "s2_after_window": [
+   "2021-05-27",
+   "2021-06-08"
+  ],
+  "feature_source": "Google Earth Engine"
+ },
+ "label_stats": {
+  "aoi_patches": 450,
+  "aoi_patches_valid": 210,
+  "aoi_patches_flood_candidates": 44,
+  "aoi_patches_dry_candidates": 77,
+  "aoi_flood_fraction_of_labelled_px": 0.027005132473297267
+ },
+ "patches_requested": 15,
+ "patches_failed": {},
+ "total_samples": 3657,
+ "positive_samples": 1407,
+ "negative_samples": 2250,
+ "positive_percentage": 38.47,
+ "sampling": "stratified per patch: <=150 flood + <=150 non-flood lattice pixels (stride 4 px); inclusion_prob column gives per-stratum selection probability",
+ "built_at": "2026-10-20T13:55:52+00:00"
+}

@@ -1,0 +1,59 @@
+{
+ "event_id": "IFB-001",
+ "slug": "assam_2016",
+ "state": "Assam",
+ "region": "Brahmaputra valley (central/upper Assam)",
+ "flood_type": "riverine",
+ "event_start": "2016-07-24",
+ "event_end": "2016-08-20",
+ "label_date": "2016-08-12",
+ "before_window": [
+  "2016-04-01",
+  "2016-06-15"
+ ],
+ "bbox": [
+  92.4,
+  25.71,
+  93.97,
+  27.33
+ ],
+ "label_source": "sen1floods11_hand",
+ "notes": "Sen1Floods11 v1.1 India event (68 hand-labelled 512x512 chips, S1/S2 of 2016-08-12, rel. orbit 77 descending). Chip footprints define patches.",
+ "imagery": {
+  "gfm_items": [
+   "ENSEMBLE_FLOOD_20160812T234716_VV_AS020M_E039N024T3",
+   "ENSEMBLE_FLOOD_20160812T234651_VV_AS020M_E042N024T3",
+   "ENSEMBLE_FLOOD_20160812T234651_VV_AS020M_E039N024T3",
+   "ENSEMBLE_FLOOD_20160812T234622_VV_AS020M_E042N024T3",
+   "ENSEMBLE_FLOOD_20160812T234622_VV_AS020M_E039N024T3"
+  ],
+  "label_datetime": "2016-08-12T23:47:16+00:00",
+  "s1_after_scenes": [
+   "S1A_IW_GRDH_1SDV_20160812T234622_20160812T234651_012574_013B43_CFE9",
+   "S1A_IW_GRDH_1SDV_20160812T234651_20160812T234716_012574_013B43_8C18"
+  ],
+  "s1_relative_orbit": 77,
+  "s1_orbit_state": "descending",
+  "s1_before_dates_available": [
+   "2016-04-14",
+   "2016-05-08",
+   "2016-06-01"
+  ],
+  "s2_after_window": [
+   "2016-08-10",
+   "2016-08-22"
+  ],
+  "feature_source": "Google Earth Engine"
+ },
+ "label_stats": {
+  "sen1floods11_chips": 68
+ },
+ "patches_requested": 68,
+ "patches_failed": {},
+ "total_samples": 17623,
+ "positive_samples": 7423,
+ "negative_samples": 10200,
+ "positive_percentage": 42.12,
+ "sampling": "stratified per patch: <=150 flood + <=150 non-flood lattice pixels (stride 4 px); inclusion_prob column gives per-stratum selection probability",
+ "built_at": "2026-10-20T13:07:37+00:00"
+}

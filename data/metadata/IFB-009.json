@@ -1,0 +1,65 @@
+{
+ "event_id": "IFB-009",
+ "slug": "assam_2024",
+ "state": "Assam",
+ "region": "Upper Assam (Golaghat/Kaziranga/Majuli)",
+ "flood_type": "riverine",
+ "event_start": "2024-06-16",
+ "event_end": "2024-07-20",
+ "label_date": "2024-07-06",
+ "before_window": [
+  "2024-02-15",
+  "2024-05-20"
+ ],
+ "bbox": [
+  92.8,
+  26.4,
+  94.2,
+  27.0
+ ],
+ "label_source": "gfm",
+ "notes": "Second 2024 wave (from 16 Jun); ~80-95% of Kaziranga NP submerged in early July. Spatially overlaps IFB-001 (same region_group).",
+ "imagery": {
+  "gfm_items": [
+   "ENSEMBLE_FLOOD_20240706T114933_VV_AS020M_E042N024T3",
+   "ENSEMBLE_FLOOD_20240706T114908_VV_AS020M_E042N024T3",
+   "ENSEMBLE_FLOOD_20240706T114843_VV_AS020M_E042N024T3"
+  ],
+  "label_datetime": "2024-07-06T11:49:33+00:00",
+  "s1_after_scenes": [
+   "S1A_IW_GRDH_1SDV_20240706T114908_20240706T114933_054640_06A6C6_BE86"
+  ],
+  "s1_relative_orbit": 143,
+  "s1_orbit_state": "ascending",
+  "s1_before_dates_available": [
+   "2024-02-25",
+   "2024-03-08",
+   "2024-03-20",
+   "2024-04-01",
+   "2024-04-13",
+   "2024-04-25",
+   "2024-05-07",
+   "2024-05-19"
+  ],
+  "s2_after_window": [
+   "2024-07-04",
+   "2024-07-16"
+  ],
+  "feature_source": "Google Earth Engine"
+ },
+ "label_stats": {
+  "aoi_patches": 406,
+  "aoi_patches_valid": 173,
+  "aoi_patches_flood_candidates": 131,
+  "aoi_patches_dry_candidates": 20,
+  "aoi_flood_fraction_of_labelled_px": 0.21676403312529816
+ },
+ "patches_requested": 15,
+ "patches_failed": {},
+ "total_samples": 3683,
+ "positive_samples": 1433,
+ "negative_samples": 2250,
+ "positive_percentage": 38.91,
+ "sampling": "stratified per patch: <=150 flood + <=150 non-flood lattice pixels (stride 4 px); inclusion_prob column gives per-stratum selection probability",
+ "built_at": "2026-10-20T13:35:22+00:00"
+}

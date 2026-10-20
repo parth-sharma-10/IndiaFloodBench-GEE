@@ -1,0 +1,126 @@
+{
+ "note": "Suggested leakage-safe protocols. Never split samples of one patch across train/test; patches of one event share a date and often a river system, so event- or region-level holdout is the honest generalisation test.",
+ "leave_one_event_out": {
+  "IFB-001": {
+   "test_events": [
+    "IFB-001"
+   ]
+  },
+  "IFB-002": {
+   "test_events": [
+    "IFB-002"
+   ]
+  },
+  "IFB-003": {
+   "test_events": [
+    "IFB-003"
+   ]
+  },
+  "IFB-004": {
+   "test_events": [
+    "IFB-004"
+   ]
+  },
+  "IFB-005": {
+   "test_events": [
+    "IFB-005"
+   ]
+  },
+  "IFB-006": {
+   "test_events": [
+    "IFB-006"
+   ]
+  },
+  "IFB-007": {
+   "test_events": [
+    "IFB-007"
+   ]
+  },
+  "IFB-008": {
+   "test_events": [
+    "IFB-008"
+   ]
+  },
+  "IFB-009": {
+   "test_events": [
+    "IFB-009"
+   ]
+  },
+  "IFB-010": {
+   "test_events": [
+    "IFB-010"
+   ]
+  }
+ },
+ "leave_one_region_group_out": {
+  "RG01": {
+   "test_events": [
+    "IFB-001",
+    "IFB-009"
+   ]
+  },
+  "RG02": {
+   "test_events": [
+    "IFB-002"
+   ]
+  },
+  "RG03": {
+   "test_events": [
+    "IFB-003"
+   ]
+  },
+  "RG04": {
+   "test_events": [
+    "IFB-004"
+   ]
+  },
+  "RG05": {
+   "test_events": [
+    "IFB-005"
+   ]
+  },
+  "RG06": {
+   "test_events": [
+    "IFB-006"
+   ]
+  },
+  "RG07": {
+   "test_events": [
+    "IFB-007"
+   ]
+  },
+  "RG08": {
+   "test_events": [
+    "IFB-008"
+   ]
+  },
+  "RG09": {
+   "test_events": [
+    "IFB-010"
+   ]
+  }
+ },
+ "by_flood_type": {
+  "coastal_cyclonic": [
+   "IFB-007",
+   "IFB-008"
+  ],
+  "riverine": [
+   "IFB-001",
+   "IFB-003",
+   "IFB-004",
+   "IFB-005",
+   "IFB-009"
+  ],
+  "riverine_pluvial": [
+   "IFB-002"
+  ],
+  "urban": [
+   "IFB-010"
+  ],
+  "urban_riverine": [
+   "IFB-006"
+  ]
+ },
+ "spatial_block_column": "patch_id"
+}

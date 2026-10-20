@@ -1,0 +1,222 @@
+[
+ {
+  "event_id": "IFB-001",
+  "slug": "assam_2016",
+  "state": "Assam",
+  "region": "Brahmaputra valley (central/upper Assam)",
+  "flood_type": "riverine",
+  "event_start": "2016-07-24",
+  "event_end": "2016-08-20",
+  "label_date": "2016-08-12",
+  "before_window": [
+   "2016-04-01",
+   "2016-06-15"
+  ],
+  "bbox": [
+   92.4,
+   25.71,
+   93.97,
+   27.33
+  ],
+  "label_source": "sen1floods11_hand",
+  "notes": "Sen1Floods11 v1.1 India event (68 hand-labelled 512x512 chips, S1/S2 of 2016-08-12, rel. orbit 77 descending). Chip footprints define patches."
+ },
+ {
+  "event_id": "IFB-002",
+  "slug": "kerala_2018",
+  "state": "Kerala",
+  "region": "Kuttanad / Periyar-Chalakudy lowlands",
+  "flood_type": "riverine_pluvial",
+  "event_start": "2018-08-08",
+  "event_end": "2018-08-30",
+  "label_date": "2018-08-21",
+  "before_window": [
+   "2018-03-15",
+   "2018-05-25"
+  ],
+  "bbox": [
+   76.2,
+   9.2,
+   76.8,
+   10.4
+  ],
+  "label_source": "gfm",
+  "notes": "Peak inundation 15-17 Aug 2018; the first GFM scene with detected flooding over the AOI is 21 Aug, so labels capture the recession phase (Kuttanad stayed waterlogged)."
+ },
+ {
+  "event_id": "IFB-003",
+  "slug": "bihar_2020",
+  "state": "Bihar",
+  "region": "North Bihar plains (Gandak/Bagmati/Kosi)",
+  "flood_type": "riverine",
+  "event_start": "2020-07-12",
+  "event_end": "2020-08-15",
+  "label_date": "2020-07-29",
+  "before_window": [
+   "2020-04-01",
+   "2020-06-10"
+  ],
+  "bbox": [
+   84.6,
+   25.8,
+   86.2,
+   26.6
+  ],
+  "label_source": "gfm",
+  "notes": "Gandak (Saran) embankment breaches in Gopalganj/East Champaran on the night of 23-24 Jul 2020; ~9.6 lakh people affected in 10 districts by late July."
+ },
+ {
+  "event_id": "IFB-004",
+  "slug": "assam_2022",
+  "state": "Assam",
+  "region": "Lower Assam (Barpeta/Nalbari/Kamrup)",
+  "flood_type": "riverine",
+  "event_start": "2022-06-14",
+  "event_end": "2022-06-30",
+  "label_date": "2022-06-16",
+  "before_window": [
+   "2022-02-15",
+   "2022-05-05"
+  ],
+  "bbox": [
+   90.6,
+   26.0,
+   92.0,
+   26.8
+  ],
+  "label_source": "gfm",
+  "notes": "Second 2022 wave; Barpeta worst-hit district; >54 lakh affected statewide by 23 Jun. Before-window ends before the mid-May first wave."
+ },
+ {
+  "event_id": "IFB-005",
+  "slug": "punjab_2023",
+  "state": "Punjab",
+  "region": "Ghaggar basin (Patiala/Sangrur)",
+  "flood_type": "riverine",
+  "event_start": "2023-07-08",
+  "event_end": "2023-07-25",
+  "label_date": "2023-07-12",
+  "before_window": [
+   "2023-04-15",
+   "2023-06-10"
+  ],
+  "bbox": [
+   75.6,
+   29.8,
+   76.6,
+   30.6
+  ],
+  "label_source": "gfm",
+  "notes": "Ghaggar breaches at Moonak (Sangrur) ~12 Jul and Mansa 15-18 Jul 2023. Caveat: July is the paddy transplanting season, so some flooded paddy may be labelled flood."
+ },
+ {
+  "event_id": "IFB-006",
+  "slug": "vijayawada_2024",
+  "state": "Andhra Pradesh",
+  "region": "Vijayawada / Budameru-Krishna",
+  "flood_type": "urban_riverine",
+  "event_start": "2024-08-31",
+  "event_end": "2024-09-10",
+  "label_date": "2024-09-01",
+  "before_window": [
+   "2024-03-15",
+   "2024-05-31"
+  ],
+  "bbox": [
+   80.4,
+   16.3,
+   81.0,
+   16.8
+  ],
+  "label_source": "gfm",
+  "notes": "Budameru overflow after ~29 cm one-day rainfall on 31 Aug 2024; roughly half the city inundated on 1 Sep. GFM excludes dense urban pixels, so in-city flooding is under-labelled."
+ },
+ {
+  "event_id": "IFB-007",
+  "slug": "amphan_2020",
+  "state": "West Bengal",
+  "region": "Sundarbans / South 24 Parganas",
+  "flood_type": "coastal_cyclonic",
+  "event_start": "2020-05-20",
+  "event_end": "2020-06-05",
+  "label_date": "2020-05-22",
+  "before_window": [
+   "2020-02-15",
+   "2020-05-15"
+  ],
+  "bbox": [
+   88.0,
+   21.6,
+   89.0,
+   22.6
+  ],
+  "label_source": "gfm",
+  "notes": "Super Cyclone Amphan landfall 20 May 2020 near the Sundarbans; embankment breaches and saline inundation."
+ },
+ {
+  "event_id": "IFB-008",
+  "slug": "yaas_2021",
+  "state": "Odisha",
+  "region": "Balasore-Bhadrak coast / Purba Medinipur",
+  "flood_type": "coastal_cyclonic",
+  "event_start": "2021-05-26",
+  "event_end": "2021-06-05",
+  "label_date": "2021-05-29",
+  "before_window": [
+   "2021-02-15",
+   "2021-05-20"
+  ],
+  "bbox": [
+   86.6,
+   21.3,
+   87.8,
+   22.1
+  ],
+  "label_source": "gfm",
+  "notes": "Cyclone Yaas landfall 26 May 2021 near Balasore; storm surge flooding in coastal Odisha and Purba Medinipur (West Bengal)."
+ },
+ {
+  "event_id": "IFB-009",
+  "slug": "assam_2024",
+  "state": "Assam",
+  "region": "Upper Assam (Golaghat/Kaziranga/Majuli)",
+  "flood_type": "riverine",
+  "event_start": "2024-06-16",
+  "event_end": "2024-07-20",
+  "label_date": "2024-07-06",
+  "before_window": [
+   "2024-02-15",
+   "2024-05-20"
+  ],
+  "bbox": [
+   92.8,
+   26.4,
+   94.2,
+   27.0
+  ],
+  "label_source": "gfm",
+  "notes": "Second 2024 wave (from 16 Jun); ~80-95% of Kaziranga NP submerged in early July. Spatially overlaps IFB-001 (same region_group)."
+ },
+ {
+  "event_id": "IFB-010",
+  "slug": "vadodara_2024",
+  "state": "Gujarat",
+  "region": "Vadodara / Vishwamitri",
+  "flood_type": "urban",
+  "event_start": "2024-08-26",
+  "event_end": "2024-08-31",
+  "label_date": "2024-08-28",
+  "before_window": [
+   "2024-03-15",
+   "2024-05-31"
+  ],
+  "bbox": [
+   73.0,
+   22.1,
+   73.4,
+   22.5
+  ],
+  "label_source": "gfm",
+  "notes": "Vishwamitri peaked at 37 ft on 28 Aug 2024. Only urban event attempted; expected to have weak GFM signal because GFM excludes built-up areas."
+ }
+]
